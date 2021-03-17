@@ -11,6 +11,12 @@ class ObjectListTest {
 	private Object[] list =new Object[3];
 	private int total ;
 	
+	void testObjectList1(int sizeIn)
+	{
+		list = new Object[sizeIn];
+		total = 0;
+	}
+	
 	@Test
 	void testObjectList() {
 		ObjectListTest ol=new ObjectListTest();
