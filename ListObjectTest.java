@@ -93,11 +93,12 @@ class ObjectListTest {
 	}
 		
 	// A test case that tests the below test method testGetItem1
+	
 	@Test
 	void testGetItem1()
 	{
 		ObjectListTest ol=new ObjectListTest();
-		equals(ol.testGetItem(ol.total));
+		assertSame(null,ol.testGetItem(ol.total));
 	}
 	
 	// A test method named testGetItem that is tested by the above test case 
